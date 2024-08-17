@@ -1,5 +1,5 @@
 # music-player
-making this with pure HTML, CSS, JAVASCRIPT only was a challenge this project sole purpose is to display my skill as a developer
+making this with pure HTML, CSS, JAVASCRIPT only was a challenge, this project sole purpose is to display my skill as a developer
 i hope you enjoy it
 
 for now the songs need to be manually located in the local storage and has a very few of my favorite songs 
