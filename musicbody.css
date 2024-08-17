@@ -1,0 +1,107 @@
+.playerBody{
+    margin-left: 260px;
+    display: flex;
+    flex: 1;
+    background-color: rgb(20, 20, 20);
+    border-radius: 7px;
+}
+.variables{
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.recent, .favorite, .new{
+    background-color: rgb(20, 20, 20);
+    margin: 4px;
+    display: grid;
+    grid-template-rows:50px 1fr;
+    height:300px ;
+}
+.track{
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;
+    gap: 4px;
+}
+.musc{
+    display: grid;
+    width:150px;
+}
+.musc:hover{
+    background-color: rgb(41, 40, 40);
+    border-radius: 5px;
+}
+.thumbnail{
+    width: 125px;
+    height:125px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3px;
+    margin: 12.5px;
+}
+.artist{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 145px;
+    height: 30px;
+    box-sizing: border-box;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(155, 150, 150);
+    text-align: center;
+    cursor: pointer;
+}
+.songname{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 145px;
+    height: 30px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-weight: 500;
+    font-size: medium;
+    text-align: center;
+    cursor: pointer;
+}
+.songname:hover{
+    text-decoration: underline;
+}
+.artist:hover{
+    text-decoration: underline;
+}
+.thumbnail img{
+    object-fit: cover;
+    height: 100%;
+}
+.allsongs{
+    background-color: rgb(20, 20, 20);
+    margin: 4px;
+    display: grid;
+    grid-template-rows:50px 1fr;
+}
+.tracks {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 50px 1px;
+    padding: 10px 10px;
+}
+.musicname{
+    font-size: x-large;
+    font-weight: bolder;
+    align-self: center;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 15px;
+}

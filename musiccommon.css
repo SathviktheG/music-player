@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* div,p {
+    border-style: solid;
+    border-width: 2px;
+}
+
+.thumbnail {
+    border-color: rgb(255, 0, 0);
+}
+
+.songname {
+    border-color: rgb(0, 255, 0); 
+}
+
+.artist {
+    border-color: rgb(0, 0, 255); 
+}
+
+.musc {
+    border-color: rgb(236, 18, 18); 
+}
+
+.track {
+    border-color: rgb(35, 32, 201);
+}
+
+.recent {
+    border-color: rgb(255, 165, 0);
+}
+
+.favorite {
+    border-color: rgb(255, 192, 203); 
+}
+
+.new {
+    border-color: rgb(0, 255, 255);
+}
+
+.allcontent {
+    border-color: rgb(128, 0, 128);
+}
+
+.addTrack {
+    border-color: rgb(255, 215, 0);
+}
+ .track{
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;
+    gap: 4px;
+}
+.controller{
+    border-color: rgb(128, 0, 128);
+    border-style: solid;
+}
+.controlbottons{
+    border-color: rgb(0, 128, 11);
+    border-style: solid;
+}
+.controlbottons div{
+    border-color: rgb(224, 221, 12);
+    border-style: solid;
+} 
+  #nowPlayingInfo{
+    border: solid red;
+ }
+ #nowPlayingInfo p{
+    border: solid gold;
+ } */

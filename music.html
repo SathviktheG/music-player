@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="musicbody.css">
+    <link rel="stylesheet" href="musicnav.css">
+    <link rel="stylesheet" href="musiccommon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Musix - collection of the original hits</title>
+</head>
+<body>
+    <nav>
+      <div>
+        <ul id="menu">
+            <li class="logo"><img src="resource/bolt.svg" alt="">MUSIC PLAYER</li>
+            <li class="navitem">home</li>
+            <li class="navitem">playlist</li>
+            <li class="navitem">favorite</li>
+            <li class="navitem">about</li>
+        </ul>
+      </div>
+      <div class="controller">
+        <img id="currentCover" src="" >
+        <div id="nowPlayingInfo">
+            <p id="currentSongName">song name</p>
+            <p id="currentArtist">artist</p>
+        </div>
+        <div class="timeRangeWrapper">
+            <span id="currentTime">0:00</span>
+            <input type="range" id="progressRange" min="0" max="100" value="0">
+            <span id="durationTime">0:00</span>
+        </div>
+        <div class="controlbottons">
+            <div id="back" ><img src="resource/back.svg" alt="backward" class="src"></div>
+            <div id="play" ><img src="resource/play.svg" alt="play" class="src"></div>
+            <div id="next" ><img src="resource/next.svg" alt="forward" class="src"></div>
+        </div>
+      </div>
+    </nav>
+    <div class="playerBody">
+        <!-- <div class="variables">
+            <div class="recent">
+                <div class="musicname">recent</div>
+                <div class="track" >
+                    <div class="musc" data-id="track1">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track2">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track1">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track1">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track1">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track1">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track1">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track1">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track1">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="new">
+                <div class="musicname">NEW</div>
+                <div class="track" >
+                    <div class="musc" data-id="track1">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="favourite">
+                <div class="musicname">FAVOURITE</div>
+                <div class="track" >
+                    <div class="musc" data-id="track1">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <div class="allsongs">
+            <div>
+                <p class="musicname">ALL TRACKS</p>
+            </div>
+            <div class="tracks" >
+                    <div class="musc" data-id="track1">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track2">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track3">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track4">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track5">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track6">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track7">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track8">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track9">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track10">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track11">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="musc" data-id="track12">
+                        <div class="thumbnail">
+                            <img src="" alt="img">
+                        </div>
+                        <p class="songname"></p>
+                        <p class="artist"></p>
+                    </div>
+            </div>
+    </div>
+    <script src="music.js"></script>
+</body>
+</html>
